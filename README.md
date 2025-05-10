@@ -1,6 +1,7 @@
 # 🧩 mForm ETL Pipeline (PoC) – C4GT 2025 Submission
 
-This repository contains a Proof-of-Concept (PoC) for the **ETL Pipeline for mForm (Sync Driver)** project proposed under **C4GT 2025** with **Dhwani RIS**. It demonstrates two working methods to extract, transform, and load nested survey data from mForm-like structures into analytics-ready relational formats.
+This repository contains a Proof-of-Concept (PoC) for the **ETL Pipeline for mForm (Sync Driver)** project proposed under **C4GT 2025** with **Dhwani RIS**. 
+It demonstrates two working methods to extract, transform, and load nested survey data from mForm-like structures into analytics-ready relational formats.
 
 ---
 
@@ -59,4 +60,12 @@ The pipeline has been implemented using two methods:
 - **File-based sync tracking** via `last_processed_id.txt`
 
 ---
+
+## 📊 Future Enhancements
+
+1. Replace static input with real mForm MongoDB/REST API integration
+2. Add export to SQL (PostgreSQL/MySQL) and DBT
+3. Add support for config-driven mapping
+4. Add CLI arguments and scheduling with cron/Airflow
+5. Add schema validation and logging dashboard
 
